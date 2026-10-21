@@ -10,7 +10,7 @@
 <body>
 <main>
 <h1>プライバシーポリシー</h1>
-<p class="meta">Hermes（家族用アシスタント） ・ 制定日 2026年10月20日 ・ 改定日 2026年10月21日</p>
+<p class="meta">Hermes（家族用アシスタント） ・ 制定日 2026年10月20日 ・ 改定日 2026年10月21日（ドライブの読み取りを追加）</p>
 <p class="lead">Hermes は、ひとつの家庭のためだけに動かしている個人用のアシスタントです。このページでは、Google アカウントと連携したときに扱うデータと、その扱い方を説明します。</p>
 
 <h2>1. 利用する人</h2>
@@ -19,10 +19,11 @@
 <h2>2. Google から受け取るデータ</h2>
 <ul>
 <li><strong>Google カレンダー</strong>：家族が許可したカレンダーの予定（タイトル、日時、場所、説明）</li>
-<li><strong>Google スプレッドシート</strong>：家族のタスク管理用に使うスプレッドシートの内容</li>
-<li><strong>Google ドライブ（Hermes が作成したファイルのみ）</strong>：Hermes が作成したフォルダとファイル（調べものの結果、作成した資料や動画など）。家族が自分で保存したファイルは見えず、アクセスもしません</li>
+<li><strong>Google スプレッドシート</strong>：Hermes が作成したスプレッドシートと、家族がリンクを送って編集を許可したスプレッドシートの内容（読み書き）</li>
+<li><strong>Google ドライブ（読み取り）</strong>：家族から頼まれたときに、ドライブ内のファイルを探して内容を読みます（読み取りのみ）</li>
+<li><strong>Google ドライブ（書き込み）</strong>：新しいファイルの作成と更新は、Hermes が作成したフォルダとファイルの中だけで行います</li>
 </ul>
-<p>Gmail、連絡先、Google ドライブのうち Hermes が作成していないファイルには、許可を求めず、アクセスもしません。</p>
+<p>家族が保存したファイルを Hermes が変更・削除することはありません。例外は、家族がリンクを送って編集を明示的に許可したスプレッドシートだけで、許可はいつでも取り消せます。Gmail と連絡先には、許可を求めず、アクセスもしません。</p>
 
 <h2>3. データの使い道</h2>
 <p>受け取ったデータは、家族から頼まれた次のことにだけ使います。</p>
@@ -31,6 +32,7 @@
 <li>タスクの追加・一覧表示・完了の記録</li>
 <li>予定やタスクのリマインド</li>
 <li>頼まれた調べものの結果や作成物を、家族のドライブ内の Hermes 用フォルダに保存・更新すること</li>
+<li>頼まれたときに、ドライブ内のファイルを探して内容を読み、要約や分析をすること</li>
 </ul>
 <p>広告、販売、プロファイリング、AIモデルの学習には使いません。</p>
 
@@ -50,7 +52,7 @@
 <p>このページについてのお問い合わせは、運営者の <a href="https://github.com/hk1226">GitHub @hk1226</a> までご連絡ください。</p>
 
 <h2>English summary</h2>
-<p>Hermes is a private assistant used only by one household. With the family's consent it reads and writes their Google Calendar events and Google Sheets spreadsheets, and creates and updates only the Google Drive files and folders it made itself (drive.file scope), solely to manage the family's schedule, tasks, reminders and requested research results. Data is never sold, shared for advertising, or used to train AI models. Parts of a request may be sent to Anthropic's Claude API only to answer that request. Use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at any time from your Google Account permissions page.</p>
+<p>Hermes is a private assistant used only by one household. With the family's consent it reads and writes their Google Calendar events and Google Sheets spreadsheets, reads Google Drive files when asked (read-only), writes only to Drive files and folders it created itself, and edits other spreadsheets only after the family explicitly allows a specific spreadsheet, solely to manage the family's schedule, tasks, reminders and requested research results. Data is never sold, shared for advertising, or used to train AI models. Parts of a request may be sent to Anthropic's Claude API only to answer that request. Use of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at any time from your Google Account permissions page.</p>
 
 <footer><p><a href="index.html">Hermes ホーム</a></p></footer>
 </main>
